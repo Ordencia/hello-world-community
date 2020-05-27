@@ -1,0 +1,142 @@
+body {
+  background:  #fffbf2;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6e5948;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #BC8F8F;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #FFEFD5;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+a.navbar-brand {
+  color: #fffbf2 !important;
+  font-size: 150%;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #f5f0f0;
+  padding: 10px 20px;
+  border: 1px solid #ffffff00;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #ad8761;
+}
+
+a {
+  color: #ad8761;
+}
+
+a:hover {
+  color: #BC8F8F;
+}
+
+a.article-title:hover {
+  color: #BC8F8F;
+  text-decoration: none;
+}
+
+.article-content {
+  color: #6e6464;
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a {
+  color: #f5b076;
+  text-decoration: none;
+}
+
+.article-metadata a:hover {
+  color: #ad8761;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.btn-regular {
+  color:#BC8F8F;
+  background-color:transparent;
+  background-image:none;
+  border-color:#BC8F8F
+}
+
+.btn-filled-regular {
+  color:#ffffff;
+  background-color:#BC8F8F;
+  background-image:none;
+  border-color:#BC8F8F
+}
+
+.btn-filled-regular:hover {
+  color: #ffffff;
+  background-color: #e0afaf;
+  border-color: #e0afaf;
+}
+
+.btn-filled-regular:focus {
+  box-shadow:1px 1px #a37c7c;
+}
+
+.btn-regular:hover {
+  color:#fff;
+  background-color:#BC8F8F;
+  border-color:#BC8F8F
+}
+
+.btn-regular.focus,.btn-regular:focus {
+  box-shadow:1px 1px #a37c7c;
+}
+
+*.btn:active, .btn:focus, .btn:active:focus, .btn.active:focus {
+  box-shadow:1px 1px #a37c7c !important;
+}
+
