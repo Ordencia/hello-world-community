@@ -144,6 +144,4 @@ AWS_DEFAULT_ACL = None
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-os.environ.setdefault('S3_USE_SIGV4', 'True')
-
 django_heroku.settings(locals())
